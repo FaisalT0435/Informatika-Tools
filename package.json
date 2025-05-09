@@ -1,5 +1,5 @@
 {
-  "name": "it-tools",
+  "name": "informatika-tools",
   "type": "module",
   "version": "2024.10.22-7ca5933",
   "packageManager": "pnpm@9.11.0",
@@ -7,7 +7,7 @@
   "license": "GNU GPLv3",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CorentinTh/it-tools"
+    "url": "https://github.com/FaisalT0435/Informatika-Tools"
   },
   "keywords": [
     "productivity",

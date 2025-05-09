@@ -8,15 +8,15 @@ export const { themes: appThemes, useTheme: useAppTheme } = defineThemes({
       mutedColor: '#767c82',
     },
     default: {
-      color: 'rgba(46, 51, 56, 0.05)',
+      color: 'rgba(92, 129, 132, 0.05)',
       colorHover: 'rgba(46, 51, 56, 0.09)',
-      colorPressed: 'rgba(46, 51, 56, 0.22)',
+      colorPressed: 'rgba(46, 46, 56, 0.22)',
     },
     primary: {
-      color: '#18a058',
-      colorHover: '#1ea54c',
-      colorPressed: '#0C7A43',
-      colorFaded: '#18a0582f',
+      color: '#1877a0',
+      colorHover: '#2be3c1',
+      colorPressed: '#2224a8',
+      colorFaded: '#a8eaf7',
     },
     warning: {
       color: '#f59e0b',
@@ -25,10 +25,10 @@ export const { themes: appThemes, useTheme: useAppTheme } = defineThemes({
       colorFaded: '#f59e0b2f',
     },
     success: {
-      color: '#18a058',
-      colorHover: '#36ad6a',
-      colorPressed: '#0c7a43',
-      colorFaded: '#18a0582f',
+      color: '#1877a0',
+      colorHover: '#1e81a5',
+      colorPressed: '#227ba8',
+      colorFaded: '#a8eaf7',
     },
     error: {
       color: '#d03050',
@@ -49,10 +49,10 @@ export const { themes: appThemes, useTheme: useAppTheme } = defineThemes({
       colorPressed: 'rgba(255, 255, 255, 0.24)',
     },
     primary: {
-      color: '#1ea54c',
-      colorHover: '#36AD6A',
-      colorPressed: '#0C7A43',
-      colorFaded: '#18a0582f',
+      color: '#1877a0',
+      colorHover: '#2be3c1',
+      colorPressed: '#2224a8',
+      colorFaded: '#a8eaf7',
     },
     warning: {
       color: '#f59e0b',
@@ -61,10 +61,10 @@ export const { themes: appThemes, useTheme: useAppTheme } = defineThemes({
       colorFaded: '#f59e0b2f',
     },
     success: {
-      color: '#18a058',
-      colorHover: '#36ad6a',
-      colorPressed: '#0c7a43',
-      colorFaded: '#18a0582f',
+      color: '#1877a0',
+      colorHover: '#1e81a5',
+      colorPressed: '#227ba8',
+      colorFaded: '#a8eaf7',
     },
     error: {
       color: '#e88080',

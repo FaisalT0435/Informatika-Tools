@@ -5,7 +5,7 @@ import { RouterLink } from 'vue-router';
 import { Heart, Home2, Menu2 } from '@vicons/tabler';
 
 import { storeToRefs } from 'pinia';
-import HeroGradient from '../assets/hero-gradient.svg?component';
+import HeroGradient from '../assets/hero-gradient.svg';
 import MenuLayout from '../components/MenuLayout.vue';
 import NavbarButtons from '../components/NavbarButtons.vue';
 import { useStyleStore } from '@/stores/style.store';
@@ -39,7 +39,7 @@ const tools = computed<ToolCategory[]>(() => [
         <HeroGradient class="gradient" />
         <div class="text-wrapper">
           <div class="title">
-            IT - TOOLS
+            Informatika-Tools
           </div>
           <div class="divider" />
           <div class="subtitle">
@@ -61,9 +61,9 @@ const tools = computed<ToolCategory[]>(() => [
 
         <div class="footer">
           <div>
-            IT-Tools
+            Informatika-Tools
 
-            <c-link target="_blank" rel="noopener" :href="`https://github.com/CorentinTh/it-tools/tree/v${version}`">
+            <!-- <c-link target="_blank" rel="noopener" :href="`https://github.com/CorentinTh/it-tools/tree/v${version}`">
               v{{ version }}
             </c-link>
 
@@ -77,12 +77,12 @@ const tools = computed<ToolCategory[]>(() => [
               >
                 {{ commitSha }}
               </c-link>
-            </template>
+            </template> -->
           </div>
           <div>
             © {{ new Date().getFullYear() }}
-            <c-link target="_blank" rel="noopener" href="https://corentin.tech?utm_source=it-tools&utm_medium=footer">
-              Corentin Thomasset
+            <c-link target="_blank" rel="noopener" href="https://portofolio.faisalproject.com">
+              Faisal Tri Surya A
             </c-link>
           </div>
         </div>
