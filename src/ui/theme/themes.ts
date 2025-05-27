@@ -3,14 +3,14 @@ import { defineThemes } from './theme.models';
 export const { themes: appThemes, useTheme: useAppTheme } = defineThemes({
   light: {
     background: '#ffffff',
-    // text: {
-    //   baseColor: '#333639',
-    //   mutedColor: '#767c82',
-    // },
     text: {
-      baseColor: '#ffffffd1',
-      mutedColor: '#ffffff80',
+      baseColor: '#333639',
+      mutedColor: '#767c82',
     },
+    // text: {
+    //   baseColor: '#ffffffd1',
+    //   mutedColor: '#ffffff80',
+    // },
     default: {
       color: 'rgba(92, 129, 132, 0.05)',
       colorHover: 'rgba(46, 51, 56, 0.09)',
@@ -43,14 +43,14 @@ export const { themes: appThemes, useTheme: useAppTheme } = defineThemes({
   },
   dark: {
     background: '#1e1e1e',
-    // text: {
-    //   baseColor: '#ffffffd1',
-    //   mutedColor: '#ffffff80',
-    // },
     text: {
-      baseColor: '#333639',
-      mutedColor: '#767c82',
+      baseColor: '#ffffffd1',
+      mutedColor: '#ffffff80',
     },
+    // text: {
+    //   baseColor: '#333639',
+    //   mutedColor: '#767c82',
+    // },
     default: {
       color: 'rgba(255, 255, 255, 0.08)',
       colorHover: 'rgba(255, 255, 255, 0.12)',
