@@ -1,394 +1,436 @@
+"404":
+  notFound: 404 Tak Ditemukan
+  sorry: Maaf, halaman ini tampaknya tidak ada
+  maybe: Mungkin cache adalah melakukan hal-hal rumit, mencoba paksa-menyegarkan?
+  backHome: Kembali ke rumah
 home:
   categories:
-    newestTools: Newest tools
-    favoriteTools: 'Your favorite tools'
-    allTools: 'All the tools'
-    favoritesDndToolTip: 'Drag and drop to reorder favorites'
-  subtitle: 'Handy tools for developers'
-  toggleMenu: 'Toggle menu'
-  home: Home
-  uiLib: 'UI Lib'
-  support: 'Support informatika-tools development'
-  buyMeACoffee: 'Buy me a coffee'
+    newestTools: Perkakas terbaru
+    favoriteTools: Alat favorit Anda
+    allTools: Semua alat
+    favoritesDndToolTip: Seret dan drop ke urutan ulang favorit
+  subtitle: Perkakas berguna bagi pengembang
+  toggleMenu: Jungkitkan menu
+  home: Rumah
+  uiLib: UI Lib
+  support: Dukung pengembangan perkakas informasi
+  buyMeACoffee: Belikan aku kopi
   follow:
-    title: 'You like informatika-tools?'
-    p1: 'Give us a star on'
-    githubRepository: 'informatika-tools GitHub repository'
-    p2: 'or follow us on'
-    twitterXAccount: 'informatika-tools X account'
-    thankYou: 'Thank you!'
+    title: Kau suka alat informasi?
+    p1: Beri kami bintang di
+    githubRepository: informasi- perkakas GitHub repositori
+    p2: atau ikuti kami
+    twitterXAccount: informasi- alat Akun X
+    thankYou: Terima kasih!
   nav:
-    github: 'GitHub repository'
-    githubRepository: 'informatika-tools GitHub repository'
-    twitterX: 'X account'
-    twitterXAccount: 'IT Tools X account'
-    about: 'About  informatika-tools'
-    aboutLabel: 'About'
-    darkMode: 'Dark mode'
-    lightMode: 'Light mode'
-    mode: 'Toggle dark/light mode'
+    github: Repositori GitHub
+    githubRepository: informasi- perkakas GitHub repositori
+    twitterX: Akun X
+    twitterXAccount: Perkakas IT Akun X
+    about: Tentang informasi-alat
+    aboutLabel: Tentang
+    darkMode: Mode gelap
+    lightMode: Mode cahaya
+    mode: Ubah mode gelap / cahaya
 about:
-  content: >
-    # About informatika-tools
+  content: >-
+    # Tentang informasi-alat
 
-    This wonderful website, made with ❤ by [Corentin Thomasset](https://portolio.faisalproject.com) , aggregates useful tools for developer and people working in IT. If you find it useful, please feel free to share it to people you think may find it useful too and don't forget to bookmark it in your shortcut bar!
+    Website yang indah ini, dibuat oleh Faisal Tri Surya Atmaja] (https: / /
+    portolio.faisalproject.com), mengumpulkan alat-alat yang berguna untuk
+    pengembang dan orang-orang yang bekerja di IT. Jika Anda merasa berguna,
+    silakan bagikan pada orang yang Anda pikir mungkin berguna juga dan jangan
+    lupa untuk membookmark itu di batang pintas Anda!
 
-    IT Tools is open-source (under the GPL-3.0 license) and free, and will always be, but it costs me money to host and renew the domain name. If you want to support my work, and encourage me to add more tools, please consider supporting by [sponsoring me](https://www.buymeacoffee.com/cthmsst).
+    Informatika Tools adalah open source (di bawah lisensi GPL-3.0) dan gratis,
+    dan akan selalu begitu, tetapi saya menghabiskan uang untuk menjadi tuan
+    rumah dan memperbaharui nama domain. Jika Anda ingin mendukung pekerjaan
+    saya, dan mendorong saya untuk menambahkan lebih banyak alat.
 
-    ## Technologies
+    # # Technologies
 
-    IT Tools is made in Vue.js (Vue 3) with the the Naive UI component library and is hosted and continuously deployed by Vercel. Third-party open-source libraries are used in some tools, you may find the complete list in the [package.json](https://github.com/FaisalT0435/Informatika-Tools/tree/develop/package.json) file of the repository.
+    Perkakas Informatika dibuat dalam Vue.js (Vue 3) dengan pustaka komponen
+    Naive UI dan ditempatkan terus menerus oleh Vercel. Tiga partai membuka
+    pustaka sumber yang digunakan dalam beberapa alat, Anda mungkin menemukan
+    daftar lengkap dalam berkas [package.json] (https: / / github.com /
+    FaisalT0435 / Infformatika- Perkakas / pohon / defig / package.json) dari
+    repositori.
 
-    ## Found a bug? A tool is missing?
+    # Menemukan bug? Alat yang hilang?
 
-    If you need a tool that is currently not present here, and you think can be useful, you are welcome to submit a feature request in the [issues section](https://github.com/FaisalT0435/Informatika-Tools/issues) in the GitHub repository.
+    Jika Anda memerlukan alat yang saat ini tidak ada di sini, dan Anda berpikir
+    dapat berguna, Anda dipersilakan untuk mengajukan permintaan fitur dalam
+    bagian [isu] (https: / / github.com / FaisalT0435 / Informati- Perkakas /
+    isu) di repositori GitHub.
 
-    And if you found a bug, or something doesn't work as expected, please file a bug report in the [issues section](https://github.com/FaisalT0435/Informatika-Tools/issues) in the GitHub repository.
+    Dan jika Anda menemukan bug, atau sesuatu tidak bekerja seperti yang
+    diharapkan, silakan berkas laporan bug dalam bagian [isu] (https: / /
+    github.com / FaisalT0435 / Informatika-Perkakas / isu) dalam repositori
+    GitHub.
 
-404:
-  notFound: '404 Not Found'
-  sorry: 'Sorry, this page does not seem to exist'
-  maybe: 'Maybe the cache is doing tricky things, try force-refreshing?'
-  backHome: 'Back home'
+    .
 favoriteButton:
-  remove: 'Remove from favorites'
-  add: 'Add to favorites'
+  remove: Hapus dari favorit
+  add: Tambahkan ke favorit
 toolCard:
-  new: New
+  new: Baru
 search:
-  label: Search
+  label: Cari
 tools:
   categories:
-    favorite-tools: 'Your favorite tools'
+    favorite-tools: Alat favorit Anda
     crypto: Crypto
-    converter: Converter
+    converter: Pengkonversi
     web: Web
-    images and videos: 'Images & Videos'
-    development: Development
-    network: Network
-    math: Math
-    measurement: Measurement
-    text: Text
+    images and videos: Gambar & Video
+    development: Pengembangan
+    network: Jaringan
+    math: Matematika
+    measurement: Pengukuran
+    text: Teks
     data: Data
-
   password-strength-analyser:
-    title: Password strength analyser
-    description: Discover the strength of your password with this client-side-only password strength analyser and crack time estimation tool.
-
+    title: Penganalisa kekuatan sandi
+    description: >-
+      Temukan kekuatan dari kata sandi Anda dengan opsi ini - hanya penganalisa
+      kekuatan sandi dan alat estimasi waktu crack.
   chronometer:
     title: Chronometer
-    description: Monitor the duration of a thing. Basically a chronometer with simple chronometer features.
-
+    description: >-
+      Monitor durasi suatu hal. Pada dasarnya sebuah kronometer dengan fitur
+      kronometer sederhana.
   token-generator:
-    title: Token generator
-    description: Generate random string with the chars you want, uppercase or lowercase letters, numbers and/or symbols.
-
-    uppercase: Uppercase (ABC...)
-    lowercase: Lowercase (abc...)
-    numbers: Numbers (123...)
-    symbols: Symbols (!-;...)
-    length: Length
-    tokenPlaceholder: 'The token...'
-    copied: Token copied to the clipboard
+    title: Generator token
+    description: >-
+      Hasilkan string acak dengan karakter yang anda inginkan, huruf besar atau
+      huruf kecil, angka dan / atau simbol.
+    uppercase: Huruf besar (ABC...)
+    lowercase: Huruf kecil (abc...)
+    numbers: Nomor (123...)
+    symbols: Simbol (
+    length: Panjang
+    tokenPlaceholder: Token...
+    copied: Token disalin ke clipboard
     button:
-      copy: Copy
-      refresh: Refresh
+      copy: Salin
+      refresh: Segarkan
   percentage-calculator:
-    title: Percentage calculator
-    description: Easily calculate percentages from a value to another value, or from a percentage to a value.
-
+    title: Persentase kalkulator
+    description: >-
+      Mudah menghitung persentase dari nilai ke nilai lain, atau dari persentase
+      ke nilai.
   svg-placeholder-generator:
-    title: SVG placeholder generator
-    description: Generate svg images to use as a placeholder in your applications.
-
+    title: Generator placeholder SVG
+    description: >-
+      Hasilkan gambar svg untuk digunakan sebagai placeholder dalam aplikasi
+      Anda.
   json-to-csv:
-    title: JSON to CSV
-    description: Convert JSON to CSV with automatic header detection.
-
+    title: JSON ke CSV
+    description: Ubah JSON ke CSV dengan deteksi header otomatis.
   camera-recorder:
-    title: Camera recorder
-    description: Take a picture or record a video from your webcam or camera.
-
+    title: Kamera perekam
+    description: Ambil gambar atau rekam video dari webcam atau kamera Anda.
   keycode-info:
-    title: Keycode info
-    description: Find the javascript keycode, code, location and modifiers of any pressed key.
-
+    title: Info keycode
+    description: >-
+      Cari kode kunci javclypt, kode, lokasi dan pemodifikasi dari setiap tombol
+      ditekan.
   emoji-picker:
     title: Emoji picker
-    description: Copy and paste emojis easily and get the unicode and code points value of each emoji.
-
+    description: >-
+      Salin dan paste emoji mudah dan mendapatkan unicode dan nilai poin kode
+      dari setiap emoji.
   color-converter:
-    title: Color converter
-    description: Convert color between the different formats (hex, rgb, hsl and css name)
-
+    title: Pengubah Warna
+    description: Ubah warna diantara format yang berbeda (hex, rgb, hsl dan nama css)
   bcrypt:
-    title: Bcrypt
-    description: Hash and compare text string using bcrypt. Bcrypt is a password-hashing function based on the Blowfish cipher.
-
+    title: Blok
+    description: >-
+      Hash dan perbandingan string teks menggunakan bcrypt. Bcrypt adalah fungsi
+      sandi-hashing berdasarkan cipher Blowfish.
   crontab-generator:
-    title: Crontab generator
-    description: Validate and generate crontab and get the human-readable description of the cron schedule.
-
+    title: Generator Crontab
+    description: >-
+      Validasi dan menghasilkan crontab dan mendapatkan deskripsi yang mudah
+      dibaca dari jadwal cron.
   http-status-codes:
-    title: HTTP status codes
-    description: The list of all HTTP status codes, their name, and their meaning.
-
+    title: Kode status HTTP
+    description: Daftar semua kode status HTTP, nama mereka, dan makna mereka.
   sql-prettify:
-    title: SQL prettify and format
-    description: Format and prettify your SQL queries online (it supports various SQL dialects).
-
+    title: Prefiy dan format SQL
+    description: >-
+      Format dan prefifikasi kueri SQL Anda secara online (mendukung berbagai
+      dialek SQL).
   benchmark-builder:
-    title: Benchmark builder
-    description: Easily compare execution time of tasks with this very simple online benchmark builder.
-
+    title: Pembangun Benchmark
+    description: >-
+      Mudah membandingkan waktu eksekusi tugas dengan pembangun benchmark online
+      sederhana ini.
   git-memo:
-    title: Git cheatsheet
-    description: Git is a decentralized version management software. With this cheatsheet, you will have quick access to the most common git commands.
-
+    title: Lembar curang Git
+    description: >-
+      Git adalah perangkat lunak manajemen versi yang didesentralisasi. Dengan
+      lembar curang ini, Anda akan memiliki akses cepat ke perintah git paling
+      umum.
   slugify-string:
-    title: Slugify string
-    description: Make a string url, filename and id safe.
-
+    title: String slugify
+    description: Buat sebuah string url, nama berkas dan id aman.
   encryption:
-    title: Encrypt / decrypt text
-    description: Encrypt clear text and decrypt ciphertext using crypto algorithms like AES, TripleDES, Rabbit or RC4.
-
+    title: Enkripsi / dekripsi teks
+    description: >-
+      Enkripsi teks jelas dan dekripsi ciphertext menggunakan algoritma kripto
+      seperti AES, TripleDES, Rabbit atau RC4.
   random-port-generator:
-    title: Random port generator
-    description: Generate random port numbers outside of the range of "known" ports (0-1023).
-
+    title: Generator port acak
+    description: >-
+      Hasilkan nomor port acak diluar dari jangkauan dari "dikenal" port (0-
+      1023).
   yaml-prettify:
-    title: YAML prettify and format
-    description: Prettify your YAML string into a friendly, human-readable format.
-
+    title: Prefiy dan format YAML
+    description: Pretify string YAML anda kedalam sebuah format yang mudah dibaca.
   eta-calculator:
-    title: ETA calculator
-    description: An ETA (Estimated Time of Arrival) calculator to determine the approximate end time of a task, for example, the end time and duration of a file download.
-
+    title: Kalkulator ETA
+    description: >-
+      Sebuah kalkulator ETA (Perkiraan Waktu Kedatangan) untuk menentukan
+      perkiraan waktu akhir dari suatu tugas, sebagai contoh, akhir waktu dan
+      durasi dari download berkas.
   roman-numeral-converter:
-    title: Roman numeral converter
-    description: Convert Roman numerals to numbers and convert numbers to Roman numerals.
-
+    title: Konverter angka Romawi
+    description: Ubah angka Romawi ke angka dan ubah angka ke angka Romawi.
   hmac-generator:
-    title: Hmac generator
-    description: Computes a hash-based message authentication code (HMAC) using a secret key and your favorite hashing function.
-
+    title: Generator Hmac
+    description: >-
+      Computes a hash- based message authentication code (HMAC) using a secret
+      key and your favorite hashing function.
   bip39-generator:
-    title: BIP39 passphrase generator
-    description: Generate a BIP39 passphrase from an existing or random mnemonic, or get the mnemonic from the passphrase.
-
+    title: Generator passphrase BIP39
+    description: >-
+      Buat sandi BIP39 dari mnemonic yang ada atau acak, atau ambil mnemonic
+      dari passphrase.
   base64-file-converter:
-    title: Base64 file converter
-    description: Convert a string, file, or image into its base64 representation.
-
+    title: Pengkonversi berkas Base64
+    description: Ubah string, berkas, atau gambar ke dalam representasi base64 nya.
   list-converter:
-    title: List converter
-    description: This tool can process column-based data and apply various changes (transpose, add prefix and suffix, reverse list, sort list, lowercase values, truncate values) to each row.
-
+    title: Daftar konverter
+    description: >-
+      Alat ini dapat memproses data yang berbasis kolumn dan menerapkan berbagai
+      perubahan (transposa, menambahkan prefix dan suffix, daftar terbalik,
+      daftar urutan, nilai huruf kecil, memotong nilai) ke setiap baris.
   base64-string-converter:
-    title: Base64 string encoder/decoder
-    description: Simply encode and decode strings into their base64 representation.
-
+    title: Base64 string enkoder / decoder
+    description: Cukup kode dan decode string ke dalam representasi base64 mereka.
   toml-to-yaml:
-    title: TOML to YAML
-    description: Parse and convert TOML to YAML.
-
+    title: TOML ke YAML
+    description: Parse dan konversi TOML ke YAML.
   math-evaluator:
-    title: Math evaluator
-    description: A calculator for evaluating mathematical expressions. You can use functions like sqrt, cos, sin, abs, etc.
-
+    title: Evaluasi Matematika
+    description: >-
+      Sebuah kalkulator untuk mengevaluasi ekspresi matematika. Anda dapat
+      menggunakan fungsi seperti sqrt, cos, dosa, abs, dll.
   json-to-yaml-converter:
     title: JSON to YAML converter
-    description: Simply convert JSON to YAML with this online live converter.
-
+    description: Cukup ubah JSON ke YAML dengan konverter online ini.
   url-parser:
-    title: URL parser
-    description: Parse a URL into its separate constituent parts (protocol, origin, params, port, username-password, ...)
-
+    title: Parser URL
+    description: >-
+      Parse sebuah URL ke bagian konstituen yang terpisah (protokol, asal,
+      params, port, enjuname - password,...)
   iban-validator-and-parser:
-    title: IBAN validator and parser
-    description: Validate and parse IBAN numbers. Check if an IBAN is valid and get the country, BBAN, if it is a QR-IBAN and the IBAN friendly format.
-
+    title: Validasi IBAN dan parser
+    description: >-
+      Validasi dan parse nomor IBAN. Periksa apakah sebuah IBAN valid dan
+      mendapatkan negara, BBAN, jika itu adalah sebuah QR-IBAN dan format ramah
+      IBAN.
   user-agent-parser:
-    title: User-agent parser
-    description: Detect and parse Browser, Engine, OS, CPU, and Device type/model from an user-agent string.
-
+    title: Pengguna-agen parser
+    description: >-
+      Deteksi dan parse Browser, Mesin, OS, CPU, dan tipe / model Perangkat dari
+      string agen-pengguna.
   numeronym-generator:
-    title: Numeronym generator
-    description: A numeronym is a word where a number is used to form an abbreviation. For example, "i18n" is a numeronym of "internationalization" where 18 stands for the number of letters between the first i and the last n in the word.
-
+    title: Generator Numeronym
+    description: >-
+      Sebuah angka adalah kata di mana angka digunakan untuk membentuk
+      singkatan. Sebagai contoh, "i18n" adalah angka dari "internasionalisasi"
+      di mana 18 singkatan dari jumlah huruf antara i dan n terakhir dalam kata.
   case-converter:
-    title: Case converter
-    description: Transform the case of a string and choose between different formats
-
+    title: Konverter kasus
+    description: Ubah kasus dari string dan pilih diantara format yang berbeda
   html-entities:
-    title: Escape HTML entities
-    description: Escape or unescape HTML entities (replace characters like <,>, &, " and \' with their HTML version)
-
+    title: Entitas HTML Escape
+    description: >-
+      Entitas HTML escape atau tidak escape (ganti karakter seperti <, >, &,
+      "dan\ 'dengan versi HTML mereka)
   json-prettify:
-    title: JSON prettify and format
-    description: Prettify your JSON string into a friendly, human-readable format.
-
+    title: Format dan prefiy JSON
+    description: >-
+      Pretify string JSON Anda ke dalam sebuah format, ramah human- mudah
+      dibaca.
   docker-run-to-docker-compose-converter:
     title: Docker run to Docker compose converter
-    description: Transforms "docker run" commands into docker-compose files!
-
+    description: Mengubah perintah "docker run" menjadi berkas docker- compose!
   mac-address-lookup:
-    title: MAC address lookup
-    description: Find the vendor and manufacturer of a device by its MAC address.
-
+    title: Pencarian alamat MAC
+    description: Cari penjual dan produsen perangkat dengan alamat MAC nya.
   mime-types:
-    title: MIME types
-    description: Convert MIME types to file extensions and vice-versa.
-
+    title: Tipe MIME
+    description: Ubah tipe MIME ke ekstensi berkas dan vice- versa.
   toml-to-json:
-    title: TOML to JSON
-    description: Parse and convert TOML to JSON.
-
+    title: TOML ke JSON
+    description: Parse dan konversi TOML ke JSON.
   lorem-ipsum-generator:
-    title: Lorem ipsum generator
-    description: Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content
-
+    title: Generator Ipsum Lorem
+    description: >-
+      Lorem ipsum adalah teks placeholder yang biasanya digunakan untuk
+      menunjukkan bentuk visual dari suatu dokumen atau sebuah typeface tanpa
+      mengandalkan konten bermakna
   qrcode-generator:
-    title: QR Code generator
-    description: Generate and download a QR code for a URL (or just plain text), and customize the background and foreground colors.
-
+    title: Generator Kode QR
+    description: >-
+      Hasilkan dan unduh sebuah kode QR untuk sebuah URL (atau hanya teks
+      biasa), dan menyesuaikan latar belakang dan warna latar depan.
   wifi-qrcode-generator:
-    title: WiFi QR Code generator
-    description: Generate and download QR codes for quick connections to WiFi networks.
-
+    title: WiFi QR Generator kode
+    description: Hasilkan dan unduh kode QR untuk koneksi cepat ke jaringan WiFi.
   xml-formatter:
-    title: XML formatter
-    description: Prettify your XML string into a friendly, human-readable format.
-
+    title: Formateri XML
+    description: Memperkuat string XML Anda menjadi format yang mudah dibaca.
   temperature-converter:
-    title: Temperature converter
-    description: Degrees temperature conversions for Kelvin, Celsius, Fahrenheit, Rankine, Delisle, Newton, Réaumur, and Rømer.
-
+    title: Pengkonversi suhu
+    description: >-
+      Degrees konversi suhu untuk Kelvin, Celsius, Fahrenheit, Rankine, Delisle,
+      Newton, Réaumur, dan Rømer.
   chmod-calculator:
-    title: Chmod calculator
-    description: Compute your chmod permissions and commands with this online chmod calculator.
-
+    title: Kalkulator Chmod
+    description: Compute Anda izin chmod dan perintah dengan kalkulator chmod online ini.
   rsa-key-pair-generator:
-    title: RSA key pair generator
-    description: Generate a new random RSA private and public pem certificate key pair.
-
+    title: Generator pasangan kunci RSA
+    description: Buat sebuah new random RSA private and public pem certificate pair.
   html-wysiwyg-editor:
-    title: HTML WYSIWYG editor
-    description: Online, feature-rich WYSIWYG HTML editor which generates the source code of the content immediately.
-
+    title: Penyunting HTML WYSIWYG
+    description: >-
+      Online, feature-rich Editor WYSIWYG HTML yang menghasilkan kode sumber
+      konten segera.
   yaml-to-toml:
-    title: YAML to TOML
-    description: Parse and convert YAML to TOML.
-
+    title: YAML ke TOML
+    description: Parse dan konversi YAML ke TOML.
   mac-address-generator:
-    title: MAC address generator
-    description: Enter the quantity and prefix. MAC addresses will be generated in your chosen case (uppercase or lowercase)
-
+    title: Generator alamat MAC
+    description: >-
+      Masukkan kuantitas dan awalan. Alamat MAC akan dihasilkan dalam kasus yang
+      Anda pilih (huruf besar atau huruf kecil)
   json-diff:
     title: JSON diff
-    description: Compare two JSON objects and get the differences between them.
-
+    description: Bandingkan dua objek JSON dan dapatkan perbedaan di antara mereka.
   jwt-parser:
-    title: JWT parser
-    description: Parse and decode your JSON Web Token (jwt) and display its content.
-
+    title: Parser JWT
+    description: Parse dan decode JSON Web Token Anda (jwt) dan tampilkan isinya.
   date-converter:
-    title: Date-time converter
-    description: Convert date and time into the various different formats
-
+    title: Pengubah waktu tanggal
+    description: Ubah tanggal dan waktu ke dalam berbagai format berbeda
   phone-parser-and-formatter:
-    title: Phone parser and formatter
-    description: Parse, validate and format phone numbers. Get information about the phone number, like the country code, type, etc.
-
+    title: Parser telepon dan formatter
+    description: >-
+      Parse, validate dan format nomor telepon. Dapatkan informasi tentang nomor
+      telepon, seperti kode negara, jenis, dll.
   ipv4-subnet-calculator:
-    title: IPv4 subnet calculator
-    description: Parse your IPv4 CIDR blocks and get all the info you need about your subnet.
-
+    title: Kalkulator subnet IPv4
+    description: >-
+      Parse Anda IPv4 CIDR blok dan mendapatkan semua info yang Anda butuhkan
+      tentang jaringan Anda.
   og-meta-generator:
     title: Open graph meta generator
-    description: Generate open-graph and socials HTML meta tags for your website.
-
+    description: Hasilkan open-graph dan sosials HTML meta tag untuk website Anda.
   ipv6-ula-generator:
-    title: IPv6 ULA generator
-    description: Generate your own local, non-routable IP addresses for your network according to RFC4193.
-
+    title: Generator ULA IPv6
+    description: >-
+      Hasilkan lokal Anda, tidak rutin alamat IP untuk jaringan Anda menurut
+      RFC4193.
   hash-text:
-    title: Hash text
-    description: 'Hash a text string using the function you need : MD5, SHA1, SHA256, SHA224, SHA512, SHA384, SHA3 or RIPEMD160'
-
+    title: Teks Hash
+    description: >-
+      Hash a text string using the function you need: MD5, SHA1, SHA256, SHA224,
+      SHA512, SHA384, SHA3, atau RIVEMD160
   json-to-toml:
     title: JSON to TOML
-    description: Parse and convert JSON to TOML.
-
+    description: Parse dan konversi JSON ke TOML.
   device-information:
-    title: Device information
-    description: Get information about your current device (screen size, pixel-ratio, user agent, ...)
-
+    title: Informasi perangkat
+    description: >-
+      Dapatkan informasi tentang perangkat Anda saat ini (ukuran layar, rasio
+      pixel, agen pengguna,...)
   pdf-signature-checker:
-    title: PDF signature checker
-    description: Verify the signatures of a PDF file. A signed PDF file contains one or more signatures that may be used to determine whether the contents of the file have been altered since the file was signed.
-
+    title: Pemeriksa tanda tangan PDF
+    description: >-
+      Verifikasi tanda tangan berkas PDF. Sebuah berkas PDF yang ditandatangani
+      berisi satu atau lebih tanda tangan yang mungkin digunakan untuk
+      menentukan apakah isi berkas telah diubah sejak berkas ditandatangani.
   json-minify:
     title: JSON minify
-    description: Minify and compress your JSON by removing unnecessary whitespace.
-
+    description: Minify dan kompres JSON Anda dengan menghapus whitespace tidak perlu.
   ulid-generator:
-    title: ULID generator
-    description: Generate random Universally Unique Lexicographically Sortable Identifier (ULID).
-
+    title: Generator ULID
+    description: >-
+      Hasilkan acak Universally Unique Leicographically Sortable Identifikasi
+      (ULID).
   string-obfuscator:
-    title: String obfuscator
-    description: Obfuscate a string (like a secret, an IBAN, or a token) to make it shareable and identifiable without revealing its content.
-
+    title: String obfuskator
+    description: >-
+      Obfuscate string (seperti rahasia, sebuah IBAN, atau token) untuk
+      membuatnya sharable dan diidentifikasi tanpa mengungkapkan isinya.
   base-converter:
-    title: Integer base converter
-    description: Convert a number between different bases (decimal, hexadecimal, binary, octal, base64, ...)
-
+    title: Pengkonversi dasar integer
+    description: >-
+      Ubah sebuah angka diantara basis yang berbeda (desimal, heksadesimal,
+      biner, oktal, base64,...)
   yaml-to-json-converter:
-    title: YAML to JSON converter
-    description: Simply convert YAML to JSON with this online live converter.
-
+    title: YAML ke konverter JSON
+    description: Cukup mengkonversi YAML ke JSON dengan konverter online ini.
   uuid-generator:
-    title: UUIDs generator
-    description: A Universally Unique Identifier (UUID) is a 128-bit number used to identify information in computer systems. The number of possible UUIDs is 16^32, which is 2^128 or about 3.4x10^38 (which is a lot!).
-
+    title: Generator UUID
+    description: >-
+      Identifikasi Unik Universal (UUID) adalah nomor 128- bit yang digunakan
+      untuk mengidentifikasi informasi dalam sistem komputer. Jumlah UUID
+      mungkin adalah 16 ^ 32, yang 2 ^ 128 atau sekitar 3.4x10 ^ 38 (yang
+      banyak!).
   ipv4-address-converter:
-    title: IPv4 address converter
-    description: Convert an IP address into decimal, binary, hexadecimal, or even an IPv6 representation of it.
-
+    title: Konverter alamat IPv4
+    description: >-
+      Mengubah alamat IP menjadi desimal, biner, heksadesimal, atau bahkan
+      representasi IPv6 darinya.
   text-statistics:
-    title: Text statistics
-    description: Get information about a text, the number of characters, the number of words, its size in bytes, ...
-
+    title: Statistik teks
+    description: >-
+      Dapatkan informasi tentang teks, jumlah karakter, jumlah kata, ukurannya
+      dalam bytes,...
   text-to-nato-alphabet:
-    title: Text to NATO alphabet
-    description: Transform text into the NATO phonetic alphabet for oral transmission.
-
+    title: Teks ke alfabet NATO
+    description: Mengubah teks menjadi alfabet fonetik NATO untuk transmisi lisan.
   basic-auth-generator:
-    title: Basic auth generator
-    description: Generate a base64 basic auth header from a username and password.
-
+    title: Generator auth dasar
+    description: >-
+      Hasilkan base64 base64 basic auth header dari sebuah nama pengguna dan
+      kata sandi.
   text-to-unicode:
-    title: Text to Unicode
-    description: Parse and convert text to unicode and vice-versa
-
+    title: Teks ke Unicode
+    description: Parse dan konversi teks ke unicode dan vice- versa
   ipv4-range-expander:
-    title: IPv4 range expander
-    description: Given a start and an end IPv4 address, this tool calculates a valid IPv4 subnet along with its CIDR notation.
-
+    title: Expander jangkauan IPv4
+    description: >-
+      Mengingat awal dan akhir alamat IPv4, alat ini menghitung subnet IPv4 yang
+      valid bersama dengan notasi CIDR nya.
   text-diff:
-    title: Text diff
-    description: Compare two texts and see the differences between them.
-
+    title: Diff teks
+    description: Bandingkan dua teks dan lihat perbedaan di antara mereka.
   otp-generator:
-    title: OTP code generator
-    description: Generate and validate time-based OTP (one time password) for multi-factor authentication.
-
+    title: Generator kode OTP
+    description: >-
+      Hasilkan dan validate waktu -based OTP (satu waktu sandi) untuk otentikasi
+      multifaktor.
   url-encoder:
-    title: Encode/decode URL-formatted strings
-    description: Encode text to URL-encoded format (also known as "percent-encoded"), or decode from it.
-
+    title: Enkode / decode string URL-format
+    description: >-
+      Enkode teks ke format URL-encoded (juga dikenal sebagai
+      "prevent-encoded"), atau decode dari itu.
   text-to-binary:
-    title: Text to ASCII binary
-    description: Convert text to its ASCII binary representation and vice-versa.
+    title: Teks ke biner ASCII
+    description: Ubah teks ke representasi biner ASCII dan vice- versa.

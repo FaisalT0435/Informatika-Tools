@@ -1,72 +1,425 @@
+"404":
+  notFound: 404 р. Не знайдено
+  sorry: Про нас
+  maybe: Може бути кеш є робити хитрі речі, спробувати силу-відновлення?
+  backHome: Головна
 home:
   categories:
-    newestTools: Найновіші інструменти
-    favoriteTools: 'Ваші улюблені інструменти'
-    allTools: 'Усі інструменти'
-    favoritesDndToolTip: 'Перетягніть і відпустіть, щоб змінити порядок улюблених'
-  subtitle: 'Зручні інструменти для розробників'
-  toggleMenu: 'Перемикання меню'
+    newestTools: Нові інструменти
+    favoriteTools: Ваші улюблені інструменти
+    allTools: Всі інструменти
+    favoritesDndToolTip: Перетягніть і вставтеся до замовлення
+  subtitle: Інструменти для розробників
+  toggleMenu: Меню
   home: Головна
-  uiLib: 'UI Бібліотека'
-  support: 'Підтримка розробки IT Tools'
-  buyMeACoffee: 'Купи мені каву'
+  uiLib: УІ Ліб
+  support: Розробка інформатика-інструментів
+  buyMeACoffee: Купити каву
   follow:
-    title: 'Вам подобаються інструменти IT?'
-    p1: 'Додайте нам зірку на'
-    githubRepository: 'GitHub-репозиторій IT-Tools'
-    p2: 'або слідкуйте за нами на'
-    twitterXAccount: 'X-акаунт IT-Tools'
-    thankYou: 'Дякуємо!'
+    title: Вам подобається інформатика-інструменти?
+    p1: Подаруйте нам зірку
+    githubRepository: informatika-tools Репозиторій GitHub
+    p2: будь ласка, зв'яжіться з нами
+    twitterXAccount: інформатика-інструменти X акаунт
+    thankYou: Дякуємо!
   nav:
-    github: 'GitHub-репозиторій'
-    githubRepository: 'GitHub-репозиторій IT-Tools'
-    twitterX: 'X'
-    twitterXAccount: 'X-акаунт IT-Tools'
-    about: 'Про IT-Tools'
-    aboutLabel: 'Про нас'
-    darkMode: 'Темний режим'
-    lightMode: 'Світлий режим'
-    mode: 'Перемикання темного/світлого режиму'
+    github: Репозиторій GitHub
+    githubRepository: informatika-tools Репозиторій GitHub
+    twitterX: X акаунт
+    twitterXAccount: ІТ інструменти X акаунт
+    about: Про інформатика-інструменти
+    aboutLabel: Про нас
+    darkMode: Темний режим
+    lightMode: Легкий режим
+    mode: Toggle темний/світлий режим
 about:
-  content: >
-    # Про IT-Tools
+  content: >-
+    Нема Про інформатика-інструменти
 
-    Цей чудовий вебсайт, створений з ❤ [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about), агрегує корисні інструменти для розробників і людей, які працюють в сфері IT. Якщо вам це корисно, будь ласка, поділіться цим з людьми, які, на вашу думку, також можуть знайти його корисним, і не забудьте додати його до закладок у вашій панелі швидкого доступу!
+    Цей чудовий веб-сайт, виготовлений з ❤ [Faisal Tri Surya
+    Atmaja](https://portolio.faisalproject.com) , агрегати корисні інструменти
+    для розробника та людей, які працюють в ІТ. Якщо ви знайдете це корисно,
+    будь ласка, зв'яжіться з ним, щоб поділитися ним людьми, які ви думаєте,
+    можуть знайти його корисними і не забудьте зауважити, що у вашому ярлику
+    Бар!
 
-    IT Tools є відкритим програмним забезпеченням (під ліцензією GPL-3.0) і безкоштовним, і завжди буде таким, але мені коштує гроші для хостингу і продовження доменного імені. Якщо ви хочете підтримати мою роботу і підтримати мене у додаванні нових інструментів, розгляньте можливість підтримки, [спонсоруючи мене](https://www.buymeacoffee.com/cthmsst).
+    Інформатика Інструменти є відкритим вихідним кодом (для ліцензії GPL-3.0) і
+    безкоштовно, і завжди буде, але це коштує гроші для розміщення і оновлення
+    доменного імені. Якщо ви хочете підтримувати свою роботу, і заохочуйте мене
+    додавати більше інструментів.
 
-    ## Технології
+    Технології
 
-    IT Tools виконаний на Vue.js (Vue 3) з використанням бібліотеки компонентів Naive UI і розгортаний за допомогою Vercel. У деяких інструментах використовуються сторонні відкриті бібліотеки, повний список яких ви можете знайти в файлі [package.json](https://github.com/CorentinTh/it-tools/blob/main/package.json) репозиторію.
+    У Vue.js (Vue 3) з бібліотекою компонента Naive UI і постійно розгортається
+    Vercel. У деяких інструментах ви можете знайти повний список в
+    [package.json](https://github.com/FaisalT0435/Informatika-Tools/tree/develop/package.json)
+    файл репозиторій.
 
-    ## Знайшли баг? Відсутній інструмент?
+    Українська Знайдено помилки? Інструмент відсутній?
 
-    Якщо вам потрібен інструмент, якого наразі немає тут, і ви вважаєте, що він може бути корисним, ви можете подати запит на додавання функції в [розділі проблем](https://github.com/CorentinTh/it-tools/issues/new/choose) у репозиторії GitHub.
+    Якщо вам потрібен інструмент, який в даний час не присутній тут, і ви
+    думаєте, може бути корисним, ви можете подати запит на функцію в розділі
+    [викладки](https://github.com/FaisalT0435/Informatika-Tools/issues) в
+    репозиторію GitHub.
 
-    А якщо ви знайшли баг або щось не працює, як очікувалося, будь ласка, подайте звіт про баг в [розділі проблем](https://github.com/CorentinTh/it-tools/issues/new/choose) у репозиторії GitHub.
+    І якщо ви знайшли помилку, або щось не працює, як очікується, будь ласка,
+    поставте звіт про помилки в розділі
+    [видання](https://github.com/FaisalT0435/Informatika-Tools/issues) в
+    репозиторію GitHub.
 
-404:
-  notFound: '404 Сторінка не знайдена'
-  sorry: 'Вибачте, ця сторінка, схоже, не існує'
-  maybe: 'Можливо, кеш робить хитрощі, спробуйте примусово оновити сторінку?'
-  backHome: 'Повернутися на головну'
+    .
 favoriteButton:
-  remove: 'Вилучити з обраних'
-  add: 'Додати до обраних'
+  remove: Видалити з улюбленців
+  add: Додати до обраного
 toolCard:
-  new: Новий
+  new: Нові
 search:
   label: Пошук
 tools:
   categories:
-    favorite-tools: 'Ваші улюблені інструменти'
-    crypto: Крипта
+    favorite-tools: Ваші улюблені інструменти
+    crypto: Зареєструватися
     converter: Конвертер
-    web: Веб
-    images and videos: 'Зображення та відео'
+    web: Веб-сайт
+    images and videos: Зображення та відео
     development: Розробка
     network: Мережа
-    math: Математика
+    math: Маф
     measurement: Вимірювання
-    text: Текст
+    text: Головна
     data: Дані
+  password-strength-analyser:
+    title: Аналізатор сили пароля
+    description: >-
+      Відкрийте для себе міцність вашого пароля з цим аналізатором та
+      інструментом оцінки стійкості пароля.
+  chronometer:
+    title: Хронометр
+    description: Моніторинг тривалості речі. В основному хронометр з простими хронометрами.
+  token-generator:
+    title: Генератор токенів
+    description: >-
+      Генерувати випадковий рядок з символами, які ви хочете, у верхній або
+      нижній регістр, номери та / або символи.
+    uppercase: Верстати (ABC ...)
+    lowercase: Низькі (abc ...)
+    numbers: Кількість (123...)
+    symbols: Символи
+    length: Довжина
+    tokenPlaceholder: Токен ...
+    copied: Token копіювати до буфера обміну
+    button:
+      copy: Зареєструватися
+      refresh: Реверс
+  percentage-calculator:
+    title: Калькулятор відсоток
+    description: >-
+      Легко розрахувати відсотка від значення до іншого значення, або від
+      відсотка до значення.
+  svg-placeholder-generator:
+    title: Генератор СВГ
+    description: Сформувати зображення для використання як власника місця у ваших додатках.
+  json-to-csv:
+    title: JSON до CSV
+    description: Перетворення JSON в CSV з автоматичним виявленням заголовка.
+  camera-recorder:
+    title: Рекордер камери
+    description: Візьміть фотографію або запишіть відео з веб-камери або камери.
+  keycode-info:
+    title: Інформація про код
+    description: >-
+      Знайдіть зашифрований код, код, місце розташування та модифікатори
+      будь-якого пресованого ключа.
+  emoji-picker:
+    title: Emoji маркер
+    description: >-
+      Скопіюйте та вставте смайлики легко та отримайте значення unicode та кодів
+      кожного смайла.
+  color-converter:
+    title: Колір конвертер
+    description: Перетворення кольору між різними форматами (hex, rgb, hsl і css name)
+  bcrypt:
+    title: Розшифровка
+    description: >-
+      Порівняти текстовий рядок за допомогою bcrypt. Bcrypt - це функція пароля,
+      що базується на диференці.
+  crontab-generator:
+    title: Генератор Кронаб
+    description: Дійсно і генеруйте кронтаб і отримайте людський опис графіка.
+  http-status-codes:
+    title: Коди статусу HTTP
+    description: Список всіх кодів стану HTTP, їх ім'я та їх значення.
+  sql-prettify:
+    title: СКАЧАТИ і форматувати
+    description: Формат та претифікація запитів на SQL онлайн (для різних діалектів SQL).
+  benchmark-builder:
+    title: Benchmark будівельник
+    description: >-
+      Легко порівнювати час виконання завдань з цим дуже простим онлайн
+      бенчмарком.
+  git-memo:
+    title: Git кастинг
+    description: >-
+      Git є гідним програмним забезпеченням управління версіями. За допомогою
+      цього обману ви будете мати швидкий доступ до найбільш поширених команд
+      git.
+  slugify-string:
+    title: Смугати рядок
+    description: Зробіть рядок URL-адресою, ім'я файлу та id Safe.
+  encryption:
+    title: Шифрування / розшифрування тексту
+    description: >-
+      Шифрування чіткого тексту та розшифрування тексту за допомогою крипто
+      алгоритмів, таких як AES, TripleDES, Rabbit або RC4.
+  random-port-generator:
+    title: Випадковий генератор порту
+    description: >-
+      Генерувати випадкові номери портів поза діапазоном "відомих" портів
+      (0-1023).
+  yaml-prettify:
+    title: Формат YAML
+    description: Попередьте рядок YAML у дружній, послідовний формат людини.
+  eta-calculator:
+    title: Калькулятор ETA
+    description: >-
+      Калькулятор ETA (термінований час прибуття) для визначення приблизного
+      часу закінчення завдання, наприклад, закінчення часу і тривалості
+      завантаження файлів.
+  roman-numeral-converter:
+    title: Роман цифри конвертер
+    description: Перетворення римських цифр до чисел і перетворення чисел до римських цифр.
+  hmac-generator:
+    title: Генератор Hmac
+    description: >-
+      Ускладнює автентифікаційний код повідомлення на основі хешу (HMAC) за
+      допомогою секретного ключа та улюбленої функції хешування.
+  bip39-generator:
+    title: BIP39 Генератор пасфразу
+    description: >-
+      Генерувати BIP39 пасфрак з наявного або випадкового мнемічного, або
+      отримати мнемічний від пасфрак.
+  base64-file-converter:
+    title: Base64 конвертер файлів
+    description: Перетворення рядка, файл або зображення в його base64 уявлення.
+  list-converter:
+    title: Список конвертер
+    description: >-
+      Цей інструмент може обробляти дані на основі стовпців і застосувати різні
+      зміни (передача, додати префікс і суфікс, зворотний список, список
+      сортування, значення нижньої колони, значення truncate) до кожного ряду.
+  base64-string-converter:
+    title: Base64 string encoder/decoder
+    description: Просто зашифруйте та декодуйте рядки в їх базове64 представлення.
+  toml-to-yaml:
+    title: TOML до YAML
+    description: Parse і конвертувати TOML в YAML.
+  math-evaluator:
+    title: Математика
+    description: >-
+      Калькулятор оцінювання математичних виразів. Ви можете використовувати
+      функції, такі як sqrt, cos, sin, abs і т.д.
+  json-to-yaml-converter:
+    title: JSON в YML конвертер
+    description: Просто конвертувати JSON в YAML з цим онлайн живим конвертер.
+  url-parser:
+    title: Пароля URL
+    description: >-
+      Парсер URL на окремі складові частини (протокол, походження, парами, порт,
+      ім'я користувача, ...)
+  iban-validator-and-parser:
+    title: Генератор IBAN і parser
+    description: >-
+      Дійсно і парсе IBAN номери. Перевірте, чи є IBAN дійсним і отримати
+      країну, BBAN, якщо це QR-IBAN і дружній формат IBAN.
+  user-agent-parser:
+    title: Користувальницькі експерти
+    description: >-
+      Detect і parse Browser, Engine, OS, CPU і тип пристрою / моделі з
+      користувацького рядка.
+  numeronym-generator:
+    title: Генератор Numeronym
+    description: >-
+      Нумеронім є словом, де використовується номер для формування абревіатури.
+      Наприклад, «i18n» є числом «інтернаціоналізації», де 18 стоїть для
+      кількості літер між першими i та останніми n в словом.
+  case-converter:
+    title: Конвертер Case
+    description: Перетворіть чохол на рядок і виберіть між різними форматами
+  html-entities:
+    title: Втеча HTML
+    description: >-
+      Втеча або нерівний пейзаж HTML-сутності (замінити символи як <,>, так і \'
+      з їх HTML-версією)
+  json-prettify:
+    title: JSON prettify та формат
+    description: Попередити рядок JSON в дружній, людський формат.
+  docker-run-to-docker-compose-converter:
+    title: Docker запустити в Docker компози конвертер
+    description: Transforms "docker run" команди в docker-compose файли!
+  mac-address-lookup:
+    title: Пошук адрес MAC
+    description: Знайти постачальника і виробника пристрою за адресою MAC.
+  mime-types:
+    title: Типи MIME
+    description: Перетворення типів MIME до розширення файлів і сповіщень.
+  toml-to-json:
+    title: TOML до JSON
+    description: Parse і конвертувати TOML в JSON.
+  lorem-ipsum-generator:
+    title: Генератор ipsum
+    description: >-
+      Lorem ipsum - це текст, який зазвичай використовується для демонстрації
+      візуальної форми документа або типу, що не спираючись на зміст
+  qrcode-generator:
+    title: Генератор QR коду
+    description: >-
+      Сформувати і завантажити QR-код для URL (або просто простим текстом), і
+      налаштувати фон і фонові кольори.
+  wifi-qrcode-generator:
+    title: Веб-сайт Генератор коду
+    description: >-
+      Генерувати та завантажувати QR-коди для швидкого підключення до мережі
+      інтернет.
+  xml-formatter:
+    title: Формат XML
+    description: Попередити свій XML рядок в дружній, людський формат.
+  temperature-converter:
+    title: Конвертер температури
+    description: >-
+      Ступінь перетворення температури для Kelvin, Celsius, Fahrenheit, Rankine,
+      Delisle, Newton, Réaumur і Rømer.
+  chmod-calculator:
+    title: Хмод калькулятор
+    description: Зробіть свої дозволи та команди з цим онлайн-планом.
+  rsa-key-pair-generator:
+    title: RSA ключовий парний генератор
+    description: >-
+      Генерувати нову випадкову RSA приватний і публічний PEM сертифікат ключ
+      пара.
+  html-wysiwyg-editor:
+    title: HTML редактор WYSIWYG
+    description: >-
+      Онлайн, повнометражний WYSIWYG редактор HTML, який створює вихідний код
+      вмісту.
+  yaml-to-toml:
+    title: YAML до TOML
+    description: Parse і конвертувати YAML в TOML.
+  mac-address-generator:
+    title: Генератор адрес MAC
+    description: >-
+      Введіть кількість і префікс. Адреси MAC генеруються у вибраному випадку
+      (верхівки або нижній регістр)
+  json-diff:
+    title: JSON дифу
+    description: Порівняти два об'єкти JSON і отримати різницю між ними.
+  jwt-parser:
+    title: JWT парсер
+    description: Парсе і декодувати JSON Web Token (jwt) і відображати його вміст.
+  date-converter:
+    title: Дата-time конвертер
+    description: Перетворення дати і часу в різні різні формати
+  phone-parser-and-formatter:
+    title: Телефонний парсер і форматер
+    description: >-
+      Парсе, валідувати та форматувати номери. Отримати інформацію про номер
+      телефону, як і код країни, тип і т.д.
+  ipv4-subnet-calculator:
+    title: Калькулятор IPv4 підмереж
+    description: >-
+      Зробіть свій IPv4 CIDR блоки і отримуйте всю необхідну інформацію про вашу
+      підмережу.
+  og-meta-generator:
+    title: Відкритий генератор мета-генератора графа
+    description: Визначте відкриті та соціальні теги HTML для вашого веб-сайту.
+  ipv6-ula-generator:
+    title: Генератор IPv6 ULA
+    description: >-
+      Визначте свою власну локальну, нерозривну IP-адресу для вашої мережі
+      відповідно до RFC4193.
+  hash-text:
+    title: Випадковий текст
+    description: >-
+      Зошити текстовий рядок за допомогою функції вам потрібно: MD5, SHA1,
+      SHA256, SHA224, SHA512, SHA384, SHA3 або RIPEMD160
+  json-to-toml:
+    title: JSON до TOML
+    description: Parse і конвертувати JSON в TOML.
+  device-information:
+    title: Інформація про пристрій
+    description: >-
+      Отримати інформацію про поточний пристрій (розмір екрану, піксель-ratio,
+      агент користувача, ...)
+  pdf-signature-checker:
+    title: Перевірка підпису PDF
+    description: >-
+      Перевірити підписи PDF-файлу. Підписано файл PDF містить один або декілька
+      підписів, які можуть бути використані для визначення того, чи було змінено
+      вміст файлу з моменту підписання файлу.
+  json-minify:
+    title: JSON Мінифа
+    description: Змініть і стискайте JSON, видаляючи непотрібний білий простір.
+  ulid-generator:
+    title: Генератор ULID
+    description: >-
+      Генерувати випадковий Універсално унікальний Lexicographicly Сортований
+      відступник (ULID).
+  string-obfuscator:
+    title: String мастурбація
+    description: >-
+      Налаштуйте рядок (наприклад, секрет, IBAN, або токен) для того, щоб
+      зробити його доступним ідентифікованим без виявлення його вмісту.
+  base-converter:
+    title: Інтегер базовий конвертер
+    description: >-
+      Перетворення ряду між різними основами (декілька, шістнадцяткова, бінарна,
+      восьмикутна, base64, ...)
+  yaml-to-json-converter:
+    title: YAML в JSON конвертер
+    description: Просто конвертуйте YAML в JSON з цим онлайн конвертер.
+  uuid-generator:
+    title: Генератор UUIDs
+    description: >-
+      Універсально унікальний ідентифікатор (UUID) є 128-бітним числом, що
+      використовується для виявлення інформації в комп'ютерних системах.
+      Кількість можливих UUIDs становить 16^32, яка становить 2^128 або близько
+      3.4x10^38 (який багато!).
+  ipv4-address-converter:
+    title: IPv4 конвертер адрес
+    description: >-
+      Конвертувати IP-адресу в десятковий, бінарний, шістнадцятковий або навіть
+      IPv6 уявлення про нього.
+  text-statistics:
+    title: Статистика текстів
+    description: >-
+      Отримати інформацію про текст, кількість символів, кількість слів, його
+      розмір в байтах, ...
+  text-to-nato-alphabet:
+    title: Текст до алфавіту НАТО
+    description: Трансформувати текст в телефонний алфавіт НАТО для усної передачі.
+  basic-auth-generator:
+    title: Базовий генератор
+    description: Генерувати базовий заголовок auth від імені користувача та пароля.
+  text-to-unicode:
+    title: Текст до Unicode
+    description: Парсе і перетворення тексту в unicode і навпаки
+  ipv4-range-expander:
+    title: Розширювач діапазону IPv4
+    description: >-
+      З огляду на початок та кінцеву IPv4 адресу, цей інструмент розраховує
+      дійсну IPv4 субмережу разом з його позначенням CIDR.
+  text-diff:
+    title: Текстовий дифузор
+    description: Порівняти два тексти і побачити відмінності між ними.
+  otp-generator:
+    title: Генератор коду OTP
+    description: >-
+      Для отримання багатофакторної автентифікації генеруйте та встановіть
+      часовий пароль.
+  url-encoder:
+    title: Код/decode URL-форматовані рядки
+    description: >-
+      Увімкніть текст у формат URL-кодування (також відомий як
+      "перецентний-кодований"), або декодування з нього.
+  text-to-binary:
+    title: Текст до ASCII бінарний
+    description: Конвертувати текст до свого бінарного представництва ASCII та сповіщувача.
